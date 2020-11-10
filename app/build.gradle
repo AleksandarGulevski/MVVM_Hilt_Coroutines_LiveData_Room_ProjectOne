@@ -36,8 +36,23 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            debuggable true
+        }
     }
 
+    flavorDimensions "env"
+    productFlavors {
+
+        dev {
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "MVVM_Hilt_Coroutines_LiveData_Room_ProjectOne DEV"
+            dimension "env"
+            buildConfigField("String", "API_BASE_URL", "\"https://rickandmortyapi.com/api\"")
+            buildConfigField("String", "EMAIL", "\"zorica.careva@gmail.com, agulevski10@gmail.com, buktopmkd@gmail.com\"")
+            buildConfigField("String", "EMAIL_SUBJECT", "\"MVVM_Hilt_Coroutines_LiveData_Room_ProjectOne Crash Report\"")
+        }
+    }
 }
 
 dependencies {
