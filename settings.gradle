@@ -1,0 +1,2 @@
+rootProject.name='MVVM_Hilt_Coroutines_LiveData_Room_ProjectOne'
+include ':app'
