@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeScreen"
         android:name="com.denofdevelopers.mvvm_hilt_coroutines_livedata_room_projectone.ui.home.HomeFragment"
-        android:label="fragment_title_screen"
+        android:label="Home"
         tools:layout="@layout/fragment_home">
 
         <action
@@ -48,7 +48,7 @@
     </fragment>
     <fragment
         android:id="@+id/characterDetailFragment"
-        android:name="com.denofdevelopers.mvvm_hilt_coroutines_livedata_room_projectone.ui.characters.details.CharacterDetailsFragment"
+        android:name="com.denofdevelopers.mvvm_hilt_coroutines_livedata_room_projectone.ui.characters.details.CharacterDetailFragment"
 
         android:label="Character Detail"
         tools:layout="@layout/fragment_character_details" />
