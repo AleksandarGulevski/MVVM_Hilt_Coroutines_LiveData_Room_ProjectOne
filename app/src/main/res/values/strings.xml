@@ -1,4 +1,11 @@
 <resources>
 
     <string name="dummy_text">TextView</string>
+    <string name="species_and_status">%1$s %2$s</string>
+    <string name="gender">Gender:</string>
+    <string name="status">Status:</string>
+    <string name="species">Species:</string>
+    <string name="characters">Characters</string>
+    <string name="episodes">Episodes</string>
+    <string name="locations">Locations</string>
 </resources>
